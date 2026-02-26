@@ -73,7 +73,7 @@
 
 //---  デバイス取得関数  ---
 [[nodiscard]] ID3D12Device* Device::GetDevice()const noexcept {
-    assert(Device_ && "Device not Created.(call GetDevice())");
+    assert(Device_ && "Device_ not Created.(call GetDevice())");
     return Device_.Get();
 }
 
@@ -85,6 +85,6 @@
 
 //---  DXGIアダプター取得関数  ---
 [[nodiscard]] IDXGIAdapter1* Device::GetAdapter()const noexcept {
-    assert(Factory_ && "Adapter not Created.(call GetAdapter())");
+    assert(Factory_ && "Adapter_ not Created.(call GetAdapter())");
     return Adapter_.Get();
 }

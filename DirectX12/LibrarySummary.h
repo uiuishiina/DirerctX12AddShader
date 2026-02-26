@@ -6,6 +6,7 @@
 #include <d3d12.h>
 #include <dxgi1_4.h>
 #include <unordered_map>
+#include <map>
 #include <optional>
 #include <memory>
 #include <vector>

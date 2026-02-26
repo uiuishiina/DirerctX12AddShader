@@ -11,10 +11,13 @@ public:
 	}
 	//---  ウィンドウ作成関数  ---
 	[[nodiscard]] bool Create(HINSTANCE hInstance,const UINT w,const UINT h,const std::string_view& WindowName_)noexcept;
+
 	//---  ウィンドウハンドル作成関数  ---
 	[[nodiscard]] HWND GetHandle()const noexcept;
+
 	//---  ウィンドウサイズ取得関数  ---
 	[[nodiscard]] const std::pair<UINT, UINT> GetSize()const noexcept;
+
 	//---  メッセージループ継続判定処理関数  ---
 	[[nodiscard]] bool MessageLoop()noexcept;
 private:

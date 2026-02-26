@@ -125,13 +125,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AppMain\ReferenceSummary.h" />
+    <ClInclude Include="DirectX12\CommandAllocator.h" />
+    <ClInclude Include="DirectX12\CommandList.h" />
+    <ClInclude Include="DirectX12\CommandQueue.h" />
+    <ClInclude Include="DirectX12\DescriptorHeap.h" />
     <ClInclude Include="DirectX12\Device.h" />
+    <ClInclude Include="DirectX12\Fence.h" />
     <ClInclude Include="DirectX12\LibrarySummary.h" />
+    <ClInclude Include="DirectX12\RenderTarget.h" />
+    <ClInclude Include="DirectX12\SwapChain.h" />
     <ClInclude Include="Window\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AppMain\AppMain.cpp" />
+    <ClCompile Include="DirectX12\CommandAllocator.cpp" />
+    <ClCompile Include="DirectX12\CommandList.cpp" />
+    <ClCompile Include="DirectX12\CommandQueue.cpp" />
+    <ClCompile Include="DirectX12\DescriptorHeap.cpp" />
     <ClCompile Include="DirectX12\Device.cpp" />
+    <ClCompile Include="DirectX12\Fence.cpp" />
+    <ClCompile Include="DirectX12\RenderTarget.cpp" />
+    <ClCompile Include="DirectX12\SwapChain.cpp" />
     <ClCompile Include="Window\Window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
