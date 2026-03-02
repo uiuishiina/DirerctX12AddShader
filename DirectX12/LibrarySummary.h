@@ -11,3 +11,4 @@
 #include <memory>
 #include <vector>
 #include <wrl/client.h>
+#include <functional>

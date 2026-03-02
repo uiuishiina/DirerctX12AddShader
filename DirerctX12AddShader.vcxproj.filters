@@ -22,6 +22,12 @@
     <Filter Include="Window">
       <UniqueIdentifier>{45926c47-2c2c-4cd1-9b98-03226947cf95}</UniqueIdentifier>
     </Filter>
+    <Filter Include="RenderData">
+      <UniqueIdentifier>{d3e16ec7-fbdb-45cd-bbda-d84205e5146b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile">
+      <UniqueIdentifier>{58aa315a-96ef-40bf-b58f-3e620594c2dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DirectX12\Device.h">
@@ -57,6 +63,18 @@
     <ClInclude Include="DirectX12\DescriptorHeap.h">
       <Filter>DiriectX12</Filter>
     </ClInclude>
+    <ClInclude Include="DirectX12\PiplineState.h">
+      <Filter>DiriectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX12\RootSignature.h">
+      <Filter>DiriectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX12\CompileShader.h">
+      <Filter>DiriectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderData\RenderData.h">
+      <Filter>RenderData</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX12\Device.cpp">
@@ -88,6 +106,18 @@
     </ClCompile>
     <ClCompile Include="DirectX12\Fence.cpp">
       <Filter>DiriectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX12\RootSignature.cpp">
+      <Filter>DiriectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX12\PiplineState.cpp">
+      <Filter>DiriectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX12\CompileShader.cpp">
+      <Filter>DiriectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderData\RenderData.cpp">
+      <Filter>RenderData</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

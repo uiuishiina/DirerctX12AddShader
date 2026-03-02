@@ -14,3 +14,7 @@
 #include"../DirectX12/SwapChain.h"	
 #include"../DirectX12/RenderTarget.h"
 #include"../DirectX12/Fence.h"
+#include"../DirectX12/CompileShader.h"
+#include"../DirectX12/PiplineState.h"
+#include"../DirectX12/RootSignature.h"
+#include"../RenderData/RenderData.h"

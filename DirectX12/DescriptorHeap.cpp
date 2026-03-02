@@ -88,7 +88,7 @@ CPUDescriptorManager::~CPUDescriptorManager() = default;
 	}
 	//---  ディスクリプタヒープ作成指示  ---
 	auto p = std::make_unique<DescriptorHeap>();
-	assert(p->Create(type,index,false) && "DescriptorHeap CreationCall Failed()");
+	assert(p->Create(type,index,false) && "DescriptorHeap CreationCall Failed.");
 	
 	//---  ディスクリプタヒープマップ登録  ---
 	DescriptorMap_.emplace(type, std::move(p));
